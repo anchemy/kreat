@@ -1,10 +1,10 @@
 {
-  "title": "Stacks 11ty Theme",
-  "url": "https://stacks11ty.netlify.com/",
-  "siteUrl": "https://stacks11ty.netlify.com/",
+  "title": "Anchemy | Site",
+  "url": "https://anche.my/",
+  "siteUrl": "https://anche.my/",
   "author": {
-    "name": "Bradley Taunt",
-    "email": "bradleytaunt@gmail.com",
-    "github": "https://github.com/bradleytaunt"
+    "name": "Anchemy",
+    "email": "anchemy@gmail.com",
+    "github": "https://github.com/anchemy"
   }
 }

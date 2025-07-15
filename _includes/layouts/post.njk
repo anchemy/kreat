@@ -13,11 +13,11 @@ section: post
 
     <hr/>
 
-    <p>
+     <p>
       <small>
         <time datetime="{{ date | machineDate }}">Published: {{ date | readableDate }}</time>
       </small>
-    </p>
+    </p> 
 
     {% if tags %}
       <p>
@@ -27,11 +27,11 @@ section: post
           <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
         {%- endif -%}
       {% endfor %}
-      </p>
+      </p> 
     {% endif %}
   </div>
 </div>
 
 <div class="flex-grid t-center">
-  <a class="flex-grid__item" href="/posts"><h2 class="home-title m-0">← Back to all posts</h2></a>
+  <a class="flex-grid__item" href="/posts"><h2 class="home-title m-0">← Back to all sections</h2></a>
 </div>

@@ -1,7 +1,7 @@
 ---
-title: Simple example blog post
-summary: A post showcasing all styling for article elements
-date: 2018-11-23
+title: /ai
+summary: My stance on Artificial Intelligence - in art, self-development, and its environmental impact, etc.
+date: 2025-07-19
 tags:
   - CSS
 ---

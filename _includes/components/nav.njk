@@ -1,15 +1,25 @@
 <nav>
   <ul class="flex-break">
-  {%- for nav in collections.nav | sort(attribute="date") -%}
-    <li><a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a></li>
-  {%- endfor -%}
+    <!-- Left-aligned: Home (site title) -->
+    <li>
+      <a href="/" {% if page.url == "/" %} data-current="current item"{% endif %}>
+        {{ metadata.title }}
+      </a>
+    </li>
   </ul>
 </nav>
 
 <nav>
-    <ul class="t-right flex-break">
-        <li><a href="https://dribbble.com/hustlepizza">Dribbble</a></li>
-        <li><a href="https://github.com/bradleytaunt">Github</a></li>
-        <li><a href="https://codepen.io/bradleytaunt/">Codepen</a></li>
-    </ul>
+  <ul class="t-right flex-break">
+    <!-- Right-aligned: About, Colophon, Contact -->
+    {%- for nav in collections.nav | sort(attribute="date") -%}
+      {%- if nav.data.navtitle in ["About", "Colophon", "Contact"] -%}
+        <li>
+          <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>
+            {{ nav.data.navtitle }}
+          </a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
 </nav>

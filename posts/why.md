@@ -1,12 +1,9 @@
 ---
-layout: layouts/page.njk
-title: Page Example
-description: An example page
+title: /why
+summary: What I care about, what direction I'm heading, and how I hope to exist in the world.
+date: 2025-07-15
 tags:
-  - nav
-navtitle: Example Page
-date: 2017-01-01
-permalink: /example-page/index.html
+  - CSS
 ---
 
 ## An h2 header

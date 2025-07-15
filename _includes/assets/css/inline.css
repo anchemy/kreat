@@ -1,6 +1,6 @@
 :root {
 	--brand-color: #ffe79a;
-	--link-color: #ef5a5a;
+	--link-color: #bc94cf;
 }
 
 *, *:before, *:after {
@@ -19,6 +19,20 @@ body {
 	font-size: 18px;
 }
 body
+
+/* Jellyfish background container styles */
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    z-index: -1; /* Ensure it stays behind your content */
+    overflow: hidden;
+}
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -111,12 +125,12 @@ table th {
 .flex-grid--sb {
 	justify-content: space-between;
 }
-..flex-grid--col {
+.flex-grid--col {
 	flex-direction: column;
 }
 
 .flex-grid__item {
-	background: white;
+	background: #F2F0EF;
 	border-radius: 10px;
     box-shadow: 0 30px 50px 0 rgba(0,0,0,0.3);
     display: flex;
@@ -135,7 +149,7 @@ table th {
 }
 .flex-grid__item:hover h2.home-title,
 .flex-grid__item:hover p.home-summary {
-	color: white;
+	color: #F2F0EF;
 }
 
 .flex-grid__item h2 {
@@ -152,7 +166,7 @@ table th {
 }
 
 .flex-grid__item--no-hover:hover {
-	background: white;
+	background: #F2F0EF;
 	box-shadow: 0 30px 50px 0 rgba(0,0,0,0.3);
 	transform: none;
 }
@@ -188,7 +202,7 @@ table th {
 
 /* Colors */
 .c-dark {
-	color: #2d2d2d;
+	color: #FFFFFF;
 }
 
 /* Navigation */
@@ -229,7 +243,7 @@ a[rel="tag"],
 a[rel="tag"]:visited {
 	background: var(--link-color);
 	border-radius: 5px;
-	color: white;
+	color: #F2F0EF;
 	padding: 5px 10px;
 	text-decoration: none;
 }
@@ -264,8 +278,14 @@ button {
 	border: 1px solid var(--link-color);
 	background-color: var(--link-color);
 	border-radius: 5px;
-	color: white;
+	color: #F2F0EF;
 	cursor: pointer;
+}
+
+/* Make footer text white */
+footer small,
+.flex-grid.t-center small {
+  color: #F2F0EF;
 }
 
 @media screen and (max-width: 1100px) {

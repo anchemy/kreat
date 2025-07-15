@@ -1,9 +1,9 @@
 ---
-title: Yet another Example blog post
-summary: A post showcasing all styling for article elements
-date: 2018-11-22
+title: /disability
+summary: My disabilities, how they affect me, and the people around me. Includes resources.
+date: 2025-07-15
 tags:
-  - CSS
+  - Disability
 ---
 
 ## An h2 header

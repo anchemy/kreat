@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.njk
-title: Posts
+title: Profile
 date: 2017-01-01
-permalink: /posts/index.html
+permalink: /profile/index.html
 ---

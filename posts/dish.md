@@ -1,9 +1,9 @@
 ---
-title: This is also an article post
-summary: A post showcasing all styling for article elements
-date: 2018-11-22
+title: /dish
+summary: Inspired by the Dish Podcast's segment where they ask guests their food likes and dislikes.
+date: 2025-07-15
 tags:
-  - CSS
+  - Food
 ---
 
 ## An h2 header

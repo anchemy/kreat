@@ -1,7 +1,7 @@
 ---
-title: Example blog post with longer title
-summary: A post showcasing all styling for article elements
-date: 2018-11-26
+title: /canon
+summary: An encapsulation of the things that have most shaped me. A bibliography of influences.
+date: 2025-07-15
 tags:
   - CSS
 ---
