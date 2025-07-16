@@ -1,7 +1,7 @@
 {
-  "name": "Stacks",
+  "name": "anchemy-site",
   "version": "1.0.0",
-  "description": "A custom eleventy template with personality.",
+  "description": "Landing page for Anchemy",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bradleytaunt/stacks-11ty"
+    "url": "https://github.com/anchemy/kreat"
   },
   "author": {
-    "name": "Bradley Taunt",
-    "email": "bradleytaunt@gmail.com",
-    "url": "https://www.bradleytaunt.com/"
+    "name": "annke",
+    "email": "hey@anche.my",
+    "url": "https://anche.my/"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bradleytaunt/stacks-11ty/issues"
+    "url": "https://github.com/anchemy/kreat"
   },
-  "homepage": "https://stacks11ty.netlify.com/",
+  "homepage": "https://anche.my/",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "luxon": "^1.25.0",
