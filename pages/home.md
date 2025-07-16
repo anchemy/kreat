@@ -9,5 +9,5 @@ tags:
   - nav
 ---
 
-<h1 class="c-dark">🧪 <br> Hi there! <br> Make yourself cozy.</h1>
+<h1 class="c-dark">🪼 <br> Hi there! <br> Make yourself cozy.</h1>
 

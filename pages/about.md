@@ -19,7 +19,9 @@ According to Oxford, `al·che·my` means:
 > attempts to convert base metals into gold or to find a
 > universal elixir."
 
-It is not in my hopes to find a universal elixir, but I do aim to learn through the metamorphic events in my life and in the intrinsic transformations that take place afterwards.
+It is in my hopes that I could transmute the turmoil from the chaos I've been wading in for the past two decades of my life; that somehow I could turn the muck into moldavite, and that the metamorphosis isn't just pointless strife but a part of a greater becoming.
+
+The whole point of this is to recognize the magic in the journey. It is to remind myself that things turn golden with time, effort, and energy - not just with a single touch as Midas has led me to believe. Transcendence is in the toiling.
 
 ---
 
@@ -30,3 +32,5 @@ Claiming this name means adhering to the call, as well as making systems and obs
 * Achieve my goals;
 * Reflect on my achievements, learnings, and failures; and
 * Access and create personal projects.
+
+The ecosystem is currently a work in progress and is an ever-growing living system of documents.

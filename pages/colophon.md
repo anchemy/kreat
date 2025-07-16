@@ -21,6 +21,12 @@ The page topics on this site are from [Slash Pages](https://slashpages.net/) exc
 
 ---
 
-## Theme Credit
+## Theme Credit 
 
-The original layout, [Stacks-11ty](https://github.com/bradleytaunt/stacks-11ty), is by [Bradley Taunt](https://btxx.org/).
+The original layout, [Stacks-11ty](https://github.com/bradleytaunt/stacks-11ty), is by [Bradley Taunt](https://btxx.org/). 
+
+---
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+Mentioned categories fall under the MIT license except my words of course. My words are licensed under CC BY-NC-ND 4.0.
