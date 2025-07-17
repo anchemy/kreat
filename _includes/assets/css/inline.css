@@ -35,14 +35,14 @@ body
 }
 
 @font-face {
-  font-family: 'Fairy Tail';
-  src: url('/static/fonts/fairy-tail-regular.otf') format('opentype');
+  font-family: 'Stereotones';
+  src: url('/static/fonts/stereotones.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Fairy Tail', 'Helvetica', sans-serif;
+	font-family: 'Stereotones', 'Helvetica', sans-serif;
 }
 
 h1 {
