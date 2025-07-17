@@ -8,7 +8,8 @@ The background is from this exceptional Codepen entitled [fantastical jellyfishe
 
 ## Page Ideas
 
-The page topics on this site are from [Slash Pages](https://slashpages.net/) except for the /dish one that I made up myself. The mentioned linked page was curated by [Robb Knight](https://rknight.me/). 
+The page topics on this site are from [Slash Pages](https://slashpages.net/) except for the /dish one that I made up myself. The mentioned linked page was curated by [Robb Knight](https://rknight.me/).
+
 ---
 
 ## Favicon Credit
