@@ -26,7 +26,7 @@ The original layout, [Stacks-11ty](https://github.com/bradleytaunt/stacks-11ty),
 
 ## Font Credit
 
-The font used is [Stereotones](https://fontesk.com/stereotones-font/) by [Dida Aluhddin](https://www.behance.net/ahweproject). For personal use only.
+The font used is [Umba Slab Alt Bold](https://www.dafont.com/umba-slab.font) by [Anita Jürgeleit](https://typethis.studio). Using for personal site only.
 
 ---
 
