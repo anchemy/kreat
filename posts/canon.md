@@ -1,5 +1,5 @@
 ---
-title: /canon
+title: :canon
 summary: An encapsulation of the things that have most shaped me. A bibliography of influences.
 date: 2025-07-15
 tags:

@@ -35,14 +35,14 @@ body
 }
 
 @font-face {
-  font-family: 'Fairy Tail';
-  src: url('/static/fonts/fairy-tail-regular.otf') format('opentype');
+  font-family: 'Umba Slab Alt Bold';
+  src: url('/static/fonts/umba-slab-alt-bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Fairy Tail', 'Helvetica', sans-serif;
+	font-family: 'Umba Slab Alt Bold', 'Helvetica', sans-serif;
 }
 
 h1 {
@@ -208,7 +208,7 @@ table th {
 }
 
 .site-title {
-  font-family: 'Fairy Tail', 'Helvetica', sans-serif;
+  font-family: 'Umba Slab Alt Bold', 'Helvetica', sans-serif;
 }
 
 /* Colors */
@@ -222,6 +222,15 @@ nav ul {
 	padding: 0;
 	list-style: none;
 }
+nav ul.t-center {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul.t-center li {
+  text-align: center;
+}
 nav ul :first-child {
 	margin-left: 0;
 }
@@ -234,6 +243,7 @@ nav li {
 	font-weight: bold;
 	margin: 0 .5em;
 }
+
 nav li a,
 nav li a:visited {
 	opacity: 0.6;

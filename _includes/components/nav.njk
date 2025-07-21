@@ -1,25 +1,44 @@
-<nav>
-  <ul class="flex-break">
-    <!-- Left-aligned: Home (site title) -->
-    <li>
-      <a class="site-title" href="/" {% if page.url == "/" %} data-current="current item"{% endif %}>
-        ANCHEMY
-      </a>
-    </li>
-  </ul>
-</nav>
+{% if page.url == "/" %}
+  <!-- Home page: Only center-aligned navigation -->
+  <nav>
+    <ul class="t-center flex-break">
+      <!-- Center-aligned: About, Colophon, Contact -->
+      {%- for nav in collections.nav | sort(attribute="date") -%}
+        {%- if nav.data.navtitle in ["About", "Colophon", "Contact"] -%}
+          <li>
+            <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>
+              {{ nav.data.navtitle }}
+            </a>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </nav>
+{% else %}
+  <!-- Posts/Pages: Keep original navigation -->
+  <nav>
+    <ul class="flex-break">
+      <!-- Left-aligned: Home (site title) -->
+      <li>
+        <a class="site-title" href="/" {% if page.url == "/" %} data-current="current item"{% endif %}>
+          ANCHEMY
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-<nav>
-  <ul class="t-right flex-break">
-    <!-- Right-aligned: About, Colophon, Contact -->
-    {%- for nav in collections.nav | sort(attribute="date") -%}
-      {%- if nav.data.navtitle in ["About", "Colophon", "Contact"] -%}
-        <li>
-          <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>
-            {{ nav.data.navtitle }}
-          </a>
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-</nav>
+  <nav>
+    <ul class="t-right flex-break">
+      <!-- Right-aligned: About, Colophon, Contact -->
+      {%- for nav in collections.nav | sort(attribute="date") -%}
+        {%- if nav.data.navtitle in ["About", "Colophon", "Contact"] -%}
+          <li>
+            <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>
+              {{ nav.data.navtitle }}
+            </a>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </nav>
+{% endif %}

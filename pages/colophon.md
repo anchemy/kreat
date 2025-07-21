@@ -35,7 +35,7 @@ The original layout, [Stacks-11ty](https://github.com/bradleytaunt/stacks-11ty),
 
 ## Font Credit
 
-The font used is <a href="https://fontesk.com/fairy-tail-font/">Fairy Tale Regular</a> by <a href="https://www.behance.net/gatype">Gatype</a>. For personal use only.
+The font used is <a href="https://www.dafont.com/umba-slab.font">Umba Slab Alt Bold</a> by <a href="https://www.typethis.studio/">Anita Jürgeleit</a>. For personal use only.
 
 ---
 
